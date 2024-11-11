@@ -9,7 +9,6 @@ class Shape:
     def __repr__(self):
         return f"{self.name} по координатам ({self.__x}, {self.__y})"
 
-
 class Rectangle(Shape):
     """Прямоугольники"""
     name = 'прямоугольник'
