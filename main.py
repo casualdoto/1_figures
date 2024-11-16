@@ -13,3 +13,15 @@ for figure in figures:
 
 print('Для объекта Square это привело к тому, что стороны квадрата перестали оставаться равными.')
 
+from figures import RectangleCorrected, SquareCorrected
+
+print("\nТестируем исправленную реализацию (LSP):")
+figures = [RectangleCorrected(2, 3), SquareCorrected(2, 1, 1)]
+
+for figure in figures:
+    print("До изменения:", figure)
+    figure.width = 5
+    figure.height = 10
+    print(f"После изменения: {figure}\n")
+
+print('Для объекта SquareCorrected стороны квадрата всегда остаются равными после изменений.\n')
