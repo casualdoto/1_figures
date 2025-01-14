@@ -18,6 +18,10 @@ shmel9va - Шмелева Мария
 
 1_figures - https://github.com/casualdoto/1_figures
 
+**Репозиторий с курсовой работой**:
+
+SPBPU_3rd_task_library - https://github.com/casualdoto/SPBPU_3rd_task_library
+
 
 ## Описание
 Этот проект демонстрирует нарушение и соблюдение принципа подстановки Барбары Лисков (Liskov Substitution Principle, LSP) с помощью классов `Rectangle`, `Square`, `RectangleCorrected` и `SquareCorrected`.
